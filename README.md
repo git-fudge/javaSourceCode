@@ -13,12 +13,12 @@ Install the SDK by adding the following dependency in your project's pom.xml fil
 <dependency>
   <groupId>io.github.git-fudge</groupId>
   <artifactId>maven-testing-new</artifactId>
-  <version>5.5.106</version>
+  <version>1.1.999</version>
 </dependency>
 ```
 
 You can also view the package at:
-https://mvnrepository.com/artifact/io.github.git-fudge/maven-testing-new/5.5.106
+https://mvnrepository.com/artifact/io.github.git-fudge/maven-testing-new/1.1.999
 
 ## Test the SDK
 
@@ -32,7 +32,7 @@ In Eclipse, for running the tests do the following:
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://github.com/git-fudge/javaSourceCode/blob/5.5.106/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -53,20 +53,20 @@ APIMATICCalculatorClient client = new APIMATICCalculatorClient.Builder()
 
 ## List of APIs
 
-* [Simple Calculator](https://github.com/git-fudge/javaSourceCode/blob/5.5.106/doc/controllers/simple-calculator.md)
+* [Simple Calculator](doc/controllers/simple-calculator.md)
 
 ## Classes Documentation
 
-* [Utility Classes](https://github.com/git-fudge/javaSourceCode/blob/5.5.106/doc/utility-classes.md)
-* [HttpRequest](https://github.com/git-fudge/javaSourceCode/blob/5.5.106/doc/http-request.md)
-* [HttpResponse](https://github.com/git-fudge/javaSourceCode/blob/5.5.106/doc/http-response.md)
-* [HttpStringResponse](https://github.com/git-fudge/javaSourceCode/blob/5.5.106/doc/http-string-response.md)
-* [HttpContext](https://github.com/git-fudge/javaSourceCode/blob/5.5.106/doc/http-context.md)
-* [HttpBodyRequest](https://github.com/git-fudge/javaSourceCode/blob/5.5.106/doc/http-body-request.md)
-* [HttpCallback Interface](https://github.com/git-fudge/javaSourceCode/blob/5.5.106/doc/http-callback-interface.md)
-* [Headers](https://github.com/git-fudge/javaSourceCode/blob/5.5.106/doc/headers.md)
-* [ApiException](https://github.com/git-fudge/javaSourceCode/blob/5.5.106/doc/api-exception.md)
-* [Configuration Interface](https://github.com/git-fudge/javaSourceCode/blob/5.5.106/doc/configuration-interface.md)
-* [HttpClientConfiguration](https://github.com/git-fudge/javaSourceCode/blob/5.5.106/doc/http-client-configuration.md)
-* [HttpClientConfiguration.Builder](https://github.com/git-fudge/javaSourceCode/blob/5.5.106/doc/http-client-configuration-builder.md)
+* [Utility Classes](doc/utility-classes.md)
+* [HttpRequest](doc/http-request.md)
+* [HttpResponse](doc/http-response.md)
+* [HttpStringResponse](doc/http-string-response.md)
+* [HttpContext](doc/http-context.md)
+* [HttpBodyRequest](doc/http-body-request.md)
+* [HttpCallback Interface](doc/http-callback-interface.md)
+* [Headers](doc/headers.md)
+* [ApiException](doc/api-exception.md)
+* [Configuration Interface](doc/configuration-interface.md)
+* [HttpClientConfiguration](doc/http-client-configuration.md)
+* [HttpClientConfiguration.Builder](doc/http-client-configuration-builder.md)
 
