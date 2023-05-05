@@ -8,7 +8,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.git-fudge</groupId>
   <artifactId>maven-testing-new</artifactId>
-  <version>1.1.999</version>
+  <version>1.2.999</version>
   <packaging>jar</packaging>
   <name>Maven Testing purpose</name>
   <description>Testing maven deployment</description>
@@ -55,7 +55,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.13.1</version>
+      <version>4.13.2</version>
       <scope>test</scope>
     </dependency>
   </dependencies>

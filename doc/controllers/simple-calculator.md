@@ -33,16 +33,19 @@ CompletableFuture<Double> getCalculateAsync(
 ## Example Usage
 
 ```java
-GetCalculateInput getCalculateInput = new GetCalculateInput();
-getCalculateInput.setOperation(OperationTypeEnum.MULTIPLY);
-getCalculateInput.setX(222.14);
-getCalculateInput.setY(165.14);
-
+GetCalculateInput getCalculateInput = new GetCalculateInput.Builder(
+    OperationTypeEnum.MULTIPLY,
+    222.14,
+    165.14
+)
+.build();
 
 simpleCalculatorController.getCalculateAsync(getCalculateInput).thenAccept(result -> {
     // TODO success callback handler
+    System.out.println(result);
 }).exceptionally(exception -> {
     // TODO failure callback handler
+    exception.printStackTrace();
     return null;
 });
 ```
